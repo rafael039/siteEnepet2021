@@ -1,0 +1,26 @@
+.contagem {
+  width: 192px;
+  height: 90px;
+  background-color: #f4623a;
+}
+
+.numero {
+  min-width: 20px;
+  max-width: 55px;
+  background-color: #f4623a;
+  color: #fff;
+  font-size: 36px;
+  margin-left: 2px;
+  text-align: center;
+  border-radius: 5px;
+  padding: -1px;
+}
+
+.legenda {
+  height: 25px;
+  line-height: 10px;
+  color: #fff;
+  font-size: 14px;
+  background-color: #f4623a;
+  text-align: center;
+}
