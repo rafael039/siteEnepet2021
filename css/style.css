@@ -2227,7 +2227,7 @@ ol {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 	.nav-menu .mainmenu ul li {
-		margin-right: 25px;
+		margin-right: 15px;
 	}
 	.hero-section .hero-text {
 		padding-top: 110px;
@@ -2257,6 +2257,49 @@ ol {
 }
 
 @media only screen and (max-width: 991px) {
+
+	.slicknav_menu {
+		display: block;
+		background: transparent;
+		padding: 0;
+	}
+	.nav-menu .mainmenu {
+		display: none;
+	}
+	.nav-menu .primary-btn.top-btn {
+		display: none;
+	}
+	.slicknav_btn {
+		margin: 34px 0;
+		border-radius: 0;
+	}
+	.slicknav_nav {
+		background: #222;
+	}
+	.slicknav_nav .slicknav_row,
+	.slicknav_nav a {
+		margin: 0;
+		padding: 10px 20px;
+		-webkit-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+	.slicknav_nav ul {
+		margin: 0;
+	}
+	.slicknav_nav a:hover {
+		border-radius: 0;
+		background: #f44949;
+		color: #ffffff;
+	}
+	.slicknav_nav .slicknav_row:hover {
+		border-radius: 0;
+		background: #f44949;
+		color: #ffffff;
+	}
+
+
+
 	.schedule-tab .st-content .sc-pic {
 		text-align: left;
 		padding: 30px 0 0;
@@ -2329,6 +2372,7 @@ ol {
 /* Tablet Device: 768px */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+
 	.nav-menu .primary-btn.top-btn {
 		display: none;
 	}
